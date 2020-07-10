@@ -6,9 +6,9 @@
 
 ## Table of Contents
 
-- [Raw data](#Raw data)
-- [Event representation](#Event representation)
-- [Annotation](#disclaimer)
+- [Raw data](#raw data)
+- [Event representation](#event representation)
+- [Annotation](#annotation)
 - [License](#license)
 
 ---
