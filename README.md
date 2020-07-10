@@ -5,8 +5,8 @@
 ---
 
 ## Table of Contents
-- [Raw data](#raw data)
-- [Event representation](#event representation)
+- [Raw data](#rawdata)
+- [Event representation](#eventrepresentation)
 - [Annotation](#annotation)
 - [License](#license)
 
