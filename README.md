@@ -41,7 +41,8 @@ The user can clik [here](https://drive.google.com/file/d/1yLrvivO3M0jGa2jeztbXyz
      <img src="images/ball1aps.gif" width="300px"/> 
     <p>Phone1 and Ball1 APS sequences.</p>
   </div>
-
+  
+---
 
 ## Event-representation
 As event streams are fundamentally different with natural images, existing SOT trackers cannot be directly applied to them. Thus, we choose two popular event representation methods , **Surface of Active Events (SAE)** and **Natural Image Reconstruction (NIR)**.
@@ -67,6 +68,7 @@ For NIR method,  please clik [here](https://github.com/uzh-rpg/rpg_e2vid) .The u
   <p>Phone1 and Ball1 NIR encoded sequences.</p>
 </div>
 
+---
 ## Annotation
 For each sequence in EventSOT,  we provide **bounding box annotation**, **absent label** and **attributes labels**. The format of a bounding box is as `[x, y, width, height]`. The frames in which the tracking targets are out-of-view, fully occluded or under stop-go scenes are labeld with absent label ( When object is absent, set 1. Conversely, when object is visible, set 0). Each event sequence in EventSOT is labeled with eight attributes, including occlusion (OCC), scale variation (SV), rotate (ROT), camera motion (CM), stop go (SG), fast motion (FM), high dynamic range (HDR) and background clutter (BC).
 -   The bounding box annotation for each event sequence is contained in the event frame  folder (named groundtruth.txt) , or can clik [here](https://drive.google.com/file/d/1GSOdQE1kFU-d-3TpJZhWsCBr2i8iO5xe/view?usp=sharing) to dawnload bounding box annotation.
