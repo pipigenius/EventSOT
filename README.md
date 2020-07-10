@@ -70,7 +70,7 @@ For NIR method,  please clik [here](https://github.com/uzh-rpg/rpg_e2vid) .The u
 
 ---
 ## Annotation
-For each sequence in EventSOT,  we provide **bounding box annotation**, **absent label** and **attributes labels**. 
+For each sequence in EventSOT,  we provide **bounding box annotation**, **absent label** and **attributes labels**.   
 The format of a bounding box is as `[x, y, width, height]`.  
 The frames in which the tracking targets are out-of-view, fully occluded or under stop-go scenes are labeld with absent label ( When object is absent, set 1. Conversely, when object is visible, set 0).  
 Each event sequence in EventSOT is labeled with eight attributes, including occlusion (OCC), scale variation (SV), rotate (ROT), camera motion (CM), stop go (SG), fast motion (FM), high dynamic range (HDR) and background clutter (BC).  
