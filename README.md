@@ -5,14 +5,14 @@
 ---
 
 ## Table of Contents
-- [Raw data](#rawdata)
-- [Event representation](#eventrepresentation)
+- [Raw data](#raw-data)
+- [Event representation](#event-representation)
 - [Annotation](#annotation)
 - [License](#license)
 
 ---
 
-## Raw data
+## Raw-data
 
 We use  a [DAVIS346]( https://inivation.com/dvs/-product-variants/) which can out put both event stream and intensity (APS) frames to capture raw data from real-world.
 
@@ -43,7 +43,7 @@ The user can clik [here](https://drive.google.com/file/d/1yLrvivO3M0jGa2jeztbXyz
   </div>
 
 
-## Event representation
+## Event-representation
 As event streams are fundamentally different with natural images, existing SOT trackers cannot be directly applied to them. Thus, we choose two popular event representation methods , **Surface of Active Events (SAE)** and **Natural Image Reconstruction (NIR)**.
 
 ### 1)  Active Events (SAE) 
