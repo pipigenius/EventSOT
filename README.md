@@ -60,6 +60,12 @@ The user can clik [here](https://drive.google.com/file/d/1h0L_RpEfP1tIZbUpGoSAbb
   <p>Phone1 and Ball1 SAE encoded frames.</p>
 </div>
 
+<div align="center">
+  <img src="images/ball1ad.gif" width="300px" />
+   <img src="images/ball1adsae.gif" width="300px"/> 
+  <p>Ball1 Adaptive SAE and SAE encoded frames.</p>
+</div>
+
 ### 2)  Natural Image Reconstruction (NIR)
 For NIR method,  please clik [here](https://github.com/uzh-rpg/rpg_e2vid) .The user can clik [here](https://drive.google.com/file/d/1wWiyPdt32_jL1bcmtFm9Vb2hY0hk7fTG/view?usp=sharing) to dawnload NIR encoded frames data. Here are some examples of  NIR encoded frames.
 <div align="center">
