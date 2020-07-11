@@ -32,7 +32,7 @@ The user can download raw event data from [Google Drive Eventdata](https://drive
 
 ### 2) Intensity (APS) frames
 
-The user can dawnload raw APS frames data from [Google Drive APS](https://drive.google.com/file/d/1yLrvivO3M0jGa2jeztbXyz4gpt5-vshX/view?usp=sharing) to dawnload raw APS frames data. Here are some examples of APS frames.
+The user can dawnload raw APS frames data from [Google Drive APS](https://drive.google.com/file/d/1yLrvivO3M0jGa2jeztbXyz4gpt5-vshX/view?usp=sharing). Here are some examples of APS frames.
 
   
 
@@ -52,7 +52,7 @@ We provide the code of SAE encode method `sae.py` and Adaptive SAE method `sae_a
 If you want use the encoding code,you can enter the following command:  
   `python sae.py /path/to/aedat/file`       
   `python sae_ad.py /path/to/aedat/file`  
-The user can dawnload SAE encoded frames data from[Google Drive SAE](https://drive.google.com/file/d/1h0L_RpEfP1tIZbUpGoSAbb2Fv1Ezrauo/view?usp=sharing) to dawnload SAE encoded frames data. Here are some examples of  SAE encoded frames and the comparison between the Adaptive SAE encoded frames and SAE encoded frames.
+The user can dawnload SAE encoded frames data from [Google Drive SAE](https://drive.google.com/file/d/1h0L_RpEfP1tIZbUpGoSAbb2Fv1Ezrauo/view?usp=sharing) to dawnload SAE encoded frames data. Here are some examples of  SAE encoded frames and the comparison between the Adaptive SAE encoded frames and SAE encoded frames.
 
 <div align="center">
   <img src="images/phone1sae.gif" width="300px" />
