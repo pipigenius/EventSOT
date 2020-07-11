@@ -52,7 +52,7 @@ We provide the code of SAE encode method `sae.py` and Adaptive SAE method `sae_a
 If you want use the encoding code,you can enter the following command:  
   `python sae.py /path/to/aedat/file`       
   `python sae_ad.py /path/to/aedat/file`  
-The user can clik [here](https://drive.google.com/file/d/1h0L_RpEfP1tIZbUpGoSAbb2Fv1Ezrauo/view?usp=sharing) to dawnload SAE encoded frames data. Here are some examples of  SAE encoded frames.  
+The user can clik [here](https://drive.google.com/file/d/1h0L_RpEfP1tIZbUpGoSAbb2Fv1Ezrauo/view?usp=sharing) to dawnload SAE encoded frames data. Here are some examples of  SAE encoded frames and the comparison between the Adaptive SAE encoded frames and SAE encoded frames.
 
 <div align="center">
   <img src="images/phone1sae.gif" width="300px" />
