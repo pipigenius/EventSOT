@@ -18,7 +18,7 @@ We use  a [DAVIS346]( https://inivation.com/dvs/-product-variants/) which can ou
 
 ### 1) Event data
 
-The user can click [here](https://drive.google.com/file/d/1HSPiEhg8GsLDemrhVlGG7v2gt7hKXKB3/view?usp=sharing) to download raw event data. If you want to play the event data, please clike [here](https://github.com/SensorsINI/jaer/releases/tag/1.7.2) to download `jaer-dist.zip`. After that, please open `jAERViewer_win64.exe`, then select `file/Open logged data file` to choose the raw event data. In the below, we show some examples of the event stream in the spatial-temporal space ( the events of object are marked in red).
+The user can download raw event data from [Google Drive Eventdata](https://drive.google.com/file/d/1HSPiEhg8GsLDemrhVlGG7v2gt7hKXKB3/view?usp=sharing) to download raw event data. If you want to play the event data, please clike [here](https://github.com/SensorsINI/jaer/releases/tag/1.7.2) to download `jaer-dist.zip`. After that, please open `jAERViewer_win64.exe`, then select `file/Open logged data file` to choose the raw event data. In the below, we show some examples of the event stream in the spatial-temporal space ( the events of object are marked in red).
 
 <div align="center">
   <img src="images/phone1event.gif" width="800px" />
@@ -32,7 +32,7 @@ The user can click [here](https://drive.google.com/file/d/1HSPiEhg8GsLDemrhVlGG7
 
 ### 2) Intensity (APS) frames
 
-The user can clik [here](https://drive.google.com/file/d/1yLrvivO3M0jGa2jeztbXyz4gpt5-vshX/view?usp=sharing) to dawnload raw APS frames data. Here are some examples of APS frames.
+The user can dawnload raw APS frames data from [Google Drive APS](https://drive.google.com/file/d/1yLrvivO3M0jGa2jeztbXyz4gpt5-vshX/view?usp=sharing) to dawnload raw APS frames data. Here are some examples of APS frames.
 
   
 
@@ -52,7 +52,7 @@ We provide the code of SAE encode method `sae.py` and Adaptive SAE method `sae_a
 If you want use the encoding code,you can enter the following command:  
   `python sae.py /path/to/aedat/file`       
   `python sae_ad.py /path/to/aedat/file`  
-The user can clik [here](https://drive.google.com/file/d/1h0L_RpEfP1tIZbUpGoSAbb2Fv1Ezrauo/view?usp=sharing) to dawnload SAE encoded frames data. Here are some examples of  SAE encoded frames and the comparison between the Adaptive SAE encoded frames and SAE encoded frames.
+The user can dawnload SAE encoded frames data from[Google Drive SAE](https://drive.google.com/file/d/1h0L_RpEfP1tIZbUpGoSAbb2Fv1Ezrauo/view?usp=sharing) to dawnload SAE encoded frames data. Here are some examples of  SAE encoded frames and the comparison between the Adaptive SAE encoded frames and SAE encoded frames.
 
 <div align="center">
   <img src="images/phone1sae.gif" width="300px" />
@@ -67,7 +67,7 @@ The user can clik [here](https://drive.google.com/file/d/1h0L_RpEfP1tIZbUpGoSAbb
 </div>
 
 ### 2)  Natural Image Reconstruction (NIR)
-For NIR method,  please clik [here](https://github.com/uzh-rpg/rpg_e2vid) .The user can clik [here](https://drive.google.com/file/d/1wWiyPdt32_jL1bcmtFm9Vb2hY0hk7fTG/view?usp=sharing) to dawnload NIR encoded frames data. Here are some examples of  NIR encoded frames.
+For NIR method,  please refer to [rpg_e2vid](https://github.com/uzh-rpg/rpg_e2vid).The user can dawnload NIR encoded frames data from [Google Drive NIR](https://drive.google.com/file/d/1wWiyPdt32_jL1bcmtFm9Vb2hY0hk7fTG/view?usp=sharing). Here are some examples of  NIR encoded frames.
 <div align="center">
   <img src="images/phone1nir.gif" width="300px" />
    <img src="images/ball1nir.gif" width="300px"/> 
@@ -80,9 +80,9 @@ For each sequence in EventSOT,  we provide **bounding box annotation**, **absent
 The format of a bounding box is as `[x, y, width, height]`.  
 The frames in which the tracking targets are out-of-view, fully occluded or under stop-go scenes are labeld with absent label ( When object is absent, set 1. Conversely, when object is visible, set 0).  
 Each event sequence in EventSOT is labeled with eight attributes, including occlusion (OCC), scale variation (SV), rotate (ROT), camera motion (CM), stop go (SG), fast motion (FM), high dynamic range (HDR) and background clutter (BC).  
--   The bounding box annotation for each event sequence is contained in the event frame  folder (named groundtruth.txt) , or can clik [here](https://drive.google.com/file/d/1GSOdQE1kFU-d-3TpJZhWsCBr2i8iO5xe/view?usp=sharing) to dawnload bounding box annotation.
--   The user can clik [here](https://drive.google.com/file/d/1O0YLFhxWopdeLgtupMq9_t-z_ICnYck-/view?usp=sharing) to dawnload absent label.
--   The user can clik [here](https://drive.google.com/file/d/1jzqibzwguVQPYkl-djHnQTH4qjuuRFjl/view?usp=sharing) to dawnload attributes label.  
+-   The bounding box annotation for each event sequence is contained in the event frame  folder (named groundtruth.txt) , you can also dawnload bounding box annotation from [Google Drive bbox annoatation](https://drive.google.com/file/d/1GSOdQE1kFU-d-3TpJZhWsCBr2i8iO5xe/view?usp=sharing).
+-   The absent label can be found in [Google Drive absent](https://drive.google.com/file/d/1O0YLFhxWopdeLgtupMq9_t-z_ICnYck-/view?usp=sharing).
+-   The attributes label be found in [Google Drive attribute](https://drive.google.com/file/d/1jzqibzwguVQPYkl-djHnQTH4qjuuRFjl/view?usp=sharing).  
 
 ---
 
