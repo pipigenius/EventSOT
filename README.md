@@ -61,8 +61,8 @@ The user can dawnload SAE encoded frames data from [Google Drive SAE](https://dr
 </div>
 
 <div align="center">
-  <img src="images/ball1ad.gif" width="300px" />
-   <img src="images/ball1adsae.gif" width="300px"/> 
+  <img src="images/phone1ad.gif" width="300px" />
+   <img src="images/ball1ad.gif" width="300px"/> 
   <p>Ball1 Adaptive SAE and SAE encoded frames.</p>
 </div>
 
