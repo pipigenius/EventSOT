@@ -27,7 +27,7 @@ The user can download raw event data from [Google Drive Eventdata](https://drive
 
 <div align="center">
   <img src="images/ball1event.gif" width="800px" />
-  <p>Phone1 event stream</p>
+  <p>Ball1 event stream</p>
 </div>
 
 ### 2) Intensity (APS) frames
